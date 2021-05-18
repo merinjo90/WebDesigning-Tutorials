@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <script src="script.js"></script>
 </head>
 <body>
     <div class="main-body">
         <div class="calc">
-            <div class="output">
-                <input type="text" class="textLabel">
+            <div class="output" >
+                <input type="text" class="textLabel" id="textLabelId">
             </div>            
             <div class="btn">   
-                <button class="button" onclick="clear()">clr </button>             
+                <button class="button" onclick="clearbtn()">clr </button>             
                 <div class="row">
                     <button class="button" onclick="btnclick(7)">7</button>
                     <button class="button" onclick="btnclick(8)">8</button>
@@ -35,10 +35,10 @@
                     <button class="button" onclick="btnclick('-')">-</button>
                 </div>
                 <div class="row">
-                    <button class="button" onclick="btnclick('.')">7</button>
-                    <button class="button" onclick="btnclick(0)">8</button>
+                    <button class="button" onclick="btnclick('.')">.</button>
+                    <button class="button" onclick="btnclick(0)">0</button>
                     <button class="button" onclick="btnclick('+')">+</button>
-                    <button class="button" onclick="btnclick('=')">=</button>
+                    <button class="button" onclick="btnequal()">=</button>
                 </div>                
             </div>
         </div>
