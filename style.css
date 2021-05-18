@@ -1,0 +1,21 @@
+.calc{
+    width: 400px;
+    height: 500px;
+    background: rgb(202 200 200);
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.textLabel{
+    width: 80%;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 30px;
+    pointer-events: none;
+}
+.button{
+    margin-top: 30px;
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    background: floralwhite
+}
